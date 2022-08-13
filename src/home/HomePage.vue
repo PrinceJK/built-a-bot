@@ -5,7 +5,7 @@
       aria-hidden="true">
     </div>
     <div class="get-started">
-      <a href="">Get Started</a> building your first robot
+      <router-link to="/build">Get Started</router-link> building your first robot!
     </div>
   </div>
 </template>
@@ -26,5 +26,9 @@ export default {
 }
 .robot{
   height: 300px;
+}
+.get-started {
+  padding-top: 20px;
+  font-size: 25px;
 }
 </style>
