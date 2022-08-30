@@ -27,46 +27,45 @@
 </template>
 
 <script>
+
 export default {
   name: 'app',
 };
 </script>
 
 <style>
-body{
+body {
   background: linear-gradient(to bottom, #555, #999);
   background-attachment: fixed;
 }
-
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
 </style>
 
 <style scoped>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-}
-main{
-  margin: 0 auto;
+main {
   padding: 30px;
   background-color: white;
-  width: 1024px;
+  width: 964px;
   min-height: 300px;
 }
-header{
+header {
   background-color: #999;
-  width: 1084px;
+  width: 1184px;
   margin: 0 auto;
 }
-ul{
+ul {
   padding: 3px;
   display: flex;
 }
-.nav-item{
+.nav-item {
   display: inline-block;
   padding: 5px 10px;
   font-size: 22px;
   border-right: 1px solid #bbb;
 }
-.logo{
+.logo {
   vertical-align: middle;
   height: 30px;
 }
@@ -76,5 +75,16 @@ ul{
 }
 .router-link-active {
   color: white;
+}
+.container {
+  display: flex;
+  margin: 10px auto 0 auto;
+  justify-content: center;
+}
+.aside {
+  padding: 30px;
+  background-color: #aaa;
+  width: 100px;
+  min-height: 300px;
 }
 </style>

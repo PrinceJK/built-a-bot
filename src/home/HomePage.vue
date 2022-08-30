@@ -1,11 +1,10 @@
 <template>
   <div class="home">
     <div>
-      <img class="robot" src="../assets/robot-home.png"
-      aria-hidden="true">
+      <img class="robot" src="../assets/robot-home.png"  aria-hidden="true" />
     </div>
     <div class="get-started">
-      <router-link to="/build">Get Started</router-link> building your first robot!
+      <router-link to="/build">Get started</router-link> building your first robot!
     </div>
   </div>
 </template>
@@ -24,7 +23,7 @@ export default {
 .home {
   text-align: center;
 }
-.robot{
+.robot {
   height: 300px;
 }
 .get-started {

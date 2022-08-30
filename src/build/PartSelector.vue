@@ -15,7 +15,6 @@
 </template>
 
 <script>
-
 function getPreviousValidIndex(index, length) {
   const deprecatedIndex = index - 1;
   return deprecatedIndex < 0 ? length - 1 : deprecatedIndex;

@@ -21,10 +21,9 @@ export default {
       },
     },
   },
-
   computed: {
-    parts() {
-      const { partType, id } = this.$route.params;
+    part() {
+      const { partType, id } = this;
       return parts[partType].find((part) => part.id === +id);
     },
   },
